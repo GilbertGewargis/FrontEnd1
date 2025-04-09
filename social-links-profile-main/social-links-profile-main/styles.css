@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+
+}
+.container {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 100vh;           /* needs this to fill screen vertically */
+  }
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    
+}
+.avatar{
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 20px;
+    
+}
+
+.name{
+    padding: 5px;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    
+}
+.location{
+    padding: 0;
+    margin: 0;
+    color:hsl(75, 94%, 57%);
+    font-family: 'Inter', sans-serif;
+}
+.role{
+    margin-top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+button{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    width: 300px;
+    padding: 17px;
+    margin: 7px;
+    background-color: hsl(0, 0%, 20%);
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
